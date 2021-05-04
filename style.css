@@ -1,6 +1,7 @@
-body{
+body {
     text-align: center;
 }
+
 .links {
     float: left;
     color: black;
@@ -10,8 +11,21 @@ body{
     padding-right: 9px;
     font-family: sans-serif;
     font-size: 20px;
+    display: inline;
 }
-.links:hover
-    background-color:azure;
+
+.links:hover {
+    background-color: azure;
     text-decoration: underline;
-    font-size:25px;
+    font-size: 25px;
+
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
