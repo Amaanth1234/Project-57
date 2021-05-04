@@ -1,3 +1,17 @@
 body{
     text-align: center;
 }
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.links:hover
+    background-color:azure;
+    text-decoration: underline;
+    font-size:25px;
